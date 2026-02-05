@@ -33,6 +33,7 @@ const ZoomSlider = dynamic(
   { ssr: false },
 );
 
+
 // Frame URLs for preloading
 const FRAME_URLS = Array.from(
   { length: 10 },

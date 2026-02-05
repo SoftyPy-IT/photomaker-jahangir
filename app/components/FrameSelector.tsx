@@ -19,7 +19,7 @@ interface FrameSelectorProps {
   onFrameSelect: (frameId: string) => void;
 }
 
-const FRAME_DATA: Frame[] = Array.from({ length: 10 }, (_, i) => ({
+const FRAME_DATA: Frame[] = Array.from({ length: 8 }, (_, i) => ({
   id: `frame${i + 1}`,
   name: `Frame ${i + 1}`,
   url: `/frames/frame${i + 1}.png`,
